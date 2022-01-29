@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9614002B27A3549D00E20BC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9614002A27A3549D00E20BC2 /* AppDelegate.swift */; };
+		9614002D27A3549D00E20BC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9614002C27A3549D00E20BC2 /* SceneDelegate.swift */; };
+		9614002F27A3549D00E20BC2 /* VapeTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9614002E27A3549D00E20BC2 /* VapeTutorialViewController.swift */; };
+		9614003227A3549D00E20BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9614003027A3549D00E20BC2 /* Main.storyboard */; };
+		9614003427A354A300E20BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9614003327A354A300E20BC2 /* Assets.xcassets */; };
+		9614003727A354A300E20BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9614003527A354A300E20BC2 /* LaunchScreen.storyboard */; };
+		9614004427A37DEE00E20BC2 /* VapeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9614004327A37DEE00E20BC2 /* VapeFeature.swift */; };
+		9614004D27A3933900E20BC2 /* VapeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9614004C27A3933900E20BC2 /* VapeHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9614002727A3549D00E20BC2 /* Vapping Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vapping Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9614002A27A3549D00E20BC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9614002C27A3549D00E20BC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9614002E27A3549D00E20BC2 /* VapeTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VapeTutorialViewController.swift; sourceTree = "<group>"; };
+		9614003127A3549D00E20BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9614003327A354A300E20BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9614003627A354A300E20BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9614003827A354A300E20BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9614004327A37DEE00E20BC2 /* VapeFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VapeFeature.swift; sourceTree = "<group>"; };
+		9614004C27A3933900E20BC2 /* VapeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VapeHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9614002427A3549D00E20BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9614001E27A3549D00E20BC2 = {
+			isa = PBXGroup;
+			children = (
+				9614002927A3549D00E20BC2 /* Vapping Tutorial */,
+				9614002827A3549D00E20BC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9614002827A3549D00E20BC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9614002727A3549D00E20BC2 /* Vapping Tutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9614002927A3549D00E20BC2 /* Vapping Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				9614005427A3A5F500E20BC2 /* Application */,
+				9614004227A37DAC00E20BC2 /* Model */,
+				9614004827A3926400E20BC2 /* View */,
+				9614004927A3926D00E20BC2 /* Controller */,
+				9614005827A3A67600E20BC2 /* Resources */,
+				9614005627A3A60E00E20BC2 /* Configuration */,
+			);
+			path = "Vapping Tutorial";
+			sourceTree = "<group>";
+		};
+		9614004227A37DAC00E20BC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9614004327A37DEE00E20BC2 /* VapeFeature.swift */,
+				9614004C27A3933900E20BC2 /* VapeHandler.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9614004827A3926400E20BC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9614003027A3549D00E20BC2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9614004927A3926D00E20BC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9614002E27A3549D00E20BC2 /* VapeTutorialViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9614005427A3A5F500E20BC2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9614002A27A3549D00E20BC2 /* AppDelegate.swift */,
+				9614002C27A3549D00E20BC2 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9614005627A3A60E00E20BC2 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9614003827A354A300E20BC2 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		9614005827A3A67600E20BC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9614003327A354A300E20BC2 /* Assets.xcassets */,
+				9614003527A354A300E20BC2 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9614002627A3549D00E20BC2 /* Vapping Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9614003B27A354A300E20BC2 /* Build configuration list for PBXNativeTarget "Vapping Tutorial" */;
+			buildPhases = (
+				9614002327A3549D00E20BC2 /* Sources */,
+				9614002427A3549D00E20BC2 /* Frameworks */,
+				9614002527A3549D00E20BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vapping Tutorial";
+			productName = "Vapping Tutorial";
+			productReference = 9614002727A3549D00E20BC2 /* Vapping Tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9614001F27A3549D00E20BC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9614002627A3549D00E20BC2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9614002227A3549D00E20BC2 /* Build configuration list for PBXProject "Vapping Tutorial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9614001E27A3549D00E20BC2;
+			productRefGroup = 9614002827A3549D00E20BC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9614002627A3549D00E20BC2 /* Vapping Tutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9614002527A3549D00E20BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9614003727A354A300E20BC2 /* LaunchScreen.storyboard in Resources */,
+				9614003427A354A300E20BC2 /* Assets.xcassets in Resources */,
+				9614003227A3549D00E20BC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9614002327A3549D00E20BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9614004427A37DEE00E20BC2 /* VapeFeature.swift in Sources */,
+				9614002F27A3549D00E20BC2 /* VapeTutorialViewController.swift in Sources */,
+				9614002B27A3549D00E20BC2 /* AppDelegate.swift in Sources */,
+				9614002D27A3549D00E20BC2 /* SceneDelegate.swift in Sources */,
+				9614004D27A3933900E20BC2 /* VapeHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9614003027A3549D00E20BC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9614003127A3549D00E20BC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9614003527A354A300E20BC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9614003627A354A300E20BC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9614003927A354A300E20BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9614003A27A354A300E20BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9614003C27A354A300E20BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZ93545KF8;
+				INFOPLIST_FILE = "Vapping Tutorial/Configuration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CODE_SIGN_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comp.Vapping-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9614003D27A354A300E20BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZ93545KF8;
+				INFOPLIST_FILE = "Vapping Tutorial/Configuration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CODE_SIGN_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comp.Vapping-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9614002227A3549D00E20BC2 /* Build configuration list for PBXProject "Vapping Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9614003927A354A300E20BC2 /* Debug */,
+				9614003A27A354A300E20BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9614003B27A354A300E20BC2 /* Build configuration list for PBXNativeTarget "Vapping Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9614003C27A354A300E20BC2 /* Debug */,
+				9614003D27A354A300E20BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9614001F27A3549D00E20BC2 /* Project object */;
+}
