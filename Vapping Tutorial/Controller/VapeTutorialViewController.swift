@@ -14,13 +14,18 @@ class VapeTutorialViewController: UIViewController
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var valueProposition: UILabel!
     @IBOutlet weak var imageView: UIImageView!
-    private var vapeHandler:VapeHandler!
-    private var vapeFeature :VapeFeature!
+    private var vapeHandler: VapeHandler!
+    private var vapeFeature : VapeFeature!
     override func viewDidLoad()
     {
         super.viewDidLoad()
         self.configureUI()
         vapeHandler = VapeHandler()
+        self.getVape()
+        
+    }
+    func getVape()
+    {
         if let vape = vapeHandler.getFirstFeature()
         {
             self.vapeFeature = vape
@@ -30,14 +35,13 @@ class VapeTutorialViewController: UIViewController
             return
         }
         self.updateUI()
-        
     }
     func updateUI()
     {
         titleLabel.text = vapeFeature.title
         descriptionLabel.text = vapeFeature.description
         valueProposition.text = vapeHandler.getValuePropositionText()
-        imageView.image = UIImage(named: vapeFeature.image!)
+        imageView.image = UIImage(named: vapeFeature.image)
     }
     func configureUI()
     {

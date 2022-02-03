@@ -32,7 +32,6 @@ struct VapeHandler
         VapeHandler.index += 1
         guard  VapeHandler.index < 6 else
         {
-            print("exeed")
             return nil
         }
         return vapeFeatures[VapeHandler.index]
